@@ -83,18 +83,19 @@ def get_bet():
     return amount
 
 def main():
-    balance=deposit()
-    lines=get_number_of_lines()
+    balance = deposit()
+    lines = get_number_of_lines()
     while True:
-        bet=get_bet()
-        total_bet=bet*lines
+        bet = get_bet()
+        total_bet = bet * lines
         if total_bet > balance:
             print(f"You do not have enough balance. Your balance is ${balance}")
         else:
             break
     print(f"You are betting ${bet} on {lines} lines. Total bet is equal to: ${bet*lines}")
+    
+    # Generate and print the slot machine spin at the very end
+    slots = get_slot_machine_spin(rows, cols, symbol_count)
+    print_slot_machine_spin(slots)
 
-slots=get_slot_machine_spin(rows,cols,symbol_count)
-print_slot_machine_spin(slots)
-
-main()      
+main()  
