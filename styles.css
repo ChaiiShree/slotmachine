@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+#slot-machine {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#balance-output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
