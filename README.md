@@ -10,8 +10,6 @@ Welcome to the Slot Machine Game project! This is a simple static web applicatio
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
